@@ -7,4 +7,4 @@ public class FireType extends SimpleMonster {
         super("Charmander", "fire", "grass", "water", m, base);
     }
     
-}
+} 
