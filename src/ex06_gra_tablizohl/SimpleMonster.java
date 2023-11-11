@@ -4,7 +4,9 @@ import java.util.*;
 
 public class SimpleMonster {
     private final String name, type, strongAgainst, weakAgainst;
-    private int maxHP, hp, atk, def, xp, lvl;
+    protected int maxHP, hp, xp, lvl;
+    //made atk and def double instead of int 
+    protected double atk, def; 
     private static ArrayList<SimpleMonster> monsterList = new ArrayList<>();
 
     public SimpleMonster(String n, String t, String s, String w, int m, int base){  
@@ -28,10 +30,10 @@ public class SimpleMonster {
     public int getHP() {
         return hp;
     }
-    public int getAtk() {
+    public double getAtk() {
         return atk;
     }
-    public int getDef() {
+    public double getDef() {
         return def;
     }
     public static ArrayList<SimpleMonster> getMonsterList() {
