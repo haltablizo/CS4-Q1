@@ -60,7 +60,7 @@ public class SimpleMonster {
 
         if(m.hp <= 0){
             m.hp = 0;
-            System.out.println(m.getName() + " fainted.");
+            System.out.println(m.getName() + " fainted.\n");
         }
     }
 
