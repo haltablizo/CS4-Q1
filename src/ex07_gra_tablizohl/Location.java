@@ -8,7 +8,7 @@ public class Location implements Interactive {
     private ArrayList<Character> personList;
     private String localSpecialty;
 
-    public Location(String n){
+    public Location(String n){ 
         this.name = n;
         this.localSpecialty = null;
         this.personList = new ArrayList<>();
