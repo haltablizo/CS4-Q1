@@ -1,4 +1,5 @@
 
+
 package ex13_gra_tablizohl;
 
 import java.util.*;
@@ -35,7 +36,7 @@ public class Subject {
     }
     public static int getListLength() {
         return subjectList.size();
-    }
+    }    
     public static int getSubjectIndex(Subject s) throws NullPointerException {
         if(subjectList.contains(s)) return subjectList.indexOf(s);
         else throw new NullPointerException();
